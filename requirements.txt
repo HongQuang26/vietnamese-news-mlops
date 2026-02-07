@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers>=4.30.0
+datasets
+scikit-learn
+dvc
+mlflow
+python-dotenv
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+numpy<2.0
+PyYAML
+tqdm
+pytest
