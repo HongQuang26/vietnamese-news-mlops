@@ -1,9 +1,1 @@
 Byte-compiled / optimized / DLL filespycache/*.py[cod]*$py.classVirtual Environmentsvenv/env/.envData & Models (DVC sẽ lo phần này, Git không cần lo)data/models/IDE settings.vscode/.idea/MLflow logsmlruns/
-# Bỏ qua các file model nặng
-*.safetensors
-*.bin
-*.pth
-results/
-models/
-src/data/models/
-src/data/data/
