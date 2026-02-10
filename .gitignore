@@ -1,1 +1,13 @@
 Byte-compiled / optimized / DLL filespycache/*.py[cod]*$py.classVirtual Environmentsvenv/env/.envData & Models (DVC sẽ lo phần này, Git không cần lo)data/models/IDE settings.vscode/.idea/MLflow logsmlruns/
+# Chặn data và models bên trong SourceCode
+SourceCode/data/
+SourceCode/models/
+SourceCode/results/
+
+# Chặn file nặng ở bất cứ đâu (cho chắc ăn)
+*.safetensors
+*.bin
+*.pth
+# Chặn tất cả các thư mục kết quả train (chứa checkpoint nặng)
+**/results/
+**/checkpoints/
